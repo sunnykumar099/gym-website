@@ -1,0 +1,111 @@
+<style>
+body{
+    color: white;
+    margin: 0 px;
+    background:center/cover no-repeat  url(gym3.jpg);
+    padding: 0px;
+    height: 450px;
+    
+}
+
+ .left{
+
+    font-size: 16px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: rgb(3, 9, 4);
+    display: inline-block;
+     /* border: 2px rgb(24, 149, 70); */
+} 
+ .left img{
+    /* filter:invert(00); */
+    /* background-color: gray; */
+    top: 0%;
+    width: 130px;
+} 
+.mid{
+    top: 100px;
+    color: rgb(62, 23, 23);
+    display: block;
+    width: 30%;
+    margin: 18px auto;
+    padding: 20px auto;
+   /* border: 2px solid grey; */
+   text-decoration: none;
+    
+} 
+.right{
+    font-size: 16px;
+    color: rgb(198, 236, 114);
+    position: absolute;
+    right: 34px;
+    top: 40px;
+    /* margin-top: 0px; */
+    /* margin: 20px; */
+    display: inline-block;
+    border: 2px rgb(49, 201, 94);
+}
+
+.navbar{
+    padding: 20px;
+    /* border: ridge white; */
+    font-size: 16px;
+    display: inline-block;
+}
+
+.navbar li{
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 17px;
+    color: white;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    color: rgb(176, 176, 33);
+    text-decoration: none;
+}
+
+.btn{
+    margin: 0px,9px;
+    padding:3px 4px;
+    background-color: black;
+    color:white ; 
+    border:solid gray;
+    border-radius: 10px;
+
+}
+.btn:hover{
+    background-color: greenyellow;
+}
+.container{
+  width: 33%;
+ margin: 106px,80px;
+ padding: 60px;
+ /* border: solid green 1px; */
+ border-radius: 28px; 
+}
+
+.form-group input{
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    width: 308px;
+    margin:10px auto ;
+    padding: 9px;
+
+}
+.container h2{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+    </style>
